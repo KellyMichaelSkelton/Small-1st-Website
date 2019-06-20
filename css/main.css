@@ -30,7 +30,7 @@ body {
 }
 
 .card-text>p {
-  text-align: center;
+  text-align: justify;
   padding: 15px 0px;
 }
 
@@ -56,6 +56,24 @@ body {
 
 .author {
   text-align: right
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin: 15px 0px;
+
+}
+
+textarea {
+  resize: both;
+  max-width: 100%;
+  min-width: 50%;
+}
+
+input {
+  display: block;
+  margin-top: 15px;
 }
 
 footer {
